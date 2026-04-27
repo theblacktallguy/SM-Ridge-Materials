@@ -24,7 +24,7 @@ export const metadata = {
   openGraph: {
     title: "About SM Ridge Materials",
     description:
-      "Trusted supplier of construction materials in Lagos and Southwest Nigeria.",
+      "Trusted supplier of construction materials in Southwest Nigeria.",
     url: "https://smridgematerials.com/about",
     siteName: "SM Ridge Materials",
     images: [
@@ -45,7 +45,7 @@ const About = () => {
       <PageBanner
         eyebrow="About Us"
         title="A dependable materials supply partner"
-        text="Learn more about SM Ridge Materials, our values, and our commitment to serving construction needs across Lagos and Southwest Nigeria."
+        text="Learn more about SM Ridge Materials, our values, and our commitment to serving construction needs across Southwest Nigeria."
       />
 
       <AboutHero />

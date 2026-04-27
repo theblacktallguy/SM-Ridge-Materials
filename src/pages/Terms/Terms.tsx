@@ -5,7 +5,7 @@ import MainLayout from "@/components/layout/MainLayout";
 export const metadata = {
   title: "Terms of Use | SM Ridge Materials",
   description:
-    "Read the terms and conditions for using SM Ridge Materials services, including quotes, construction material supply, and delivery coordination across Lagos and Southwest Nigeria.",
+    "Read the terms and conditions for using SM Ridge Materials services, including quotes, construction material supply, and delivery coordination across Southwest Nigeria.",
   keywords: [
     "terms of use SM Ridge Materials",
     "construction services terms Nigeria",

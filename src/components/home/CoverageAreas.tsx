@@ -10,8 +10,7 @@ const CoverageAreas: React.FC = () => {
           <h2>Delivery & Coverage Areas</h2>
 
           <p>
-            We supply high-quality construction materials across Lagos and
-            the entire Southwest region of Nigeria with reliable logistics support.
+            We supply high-quality construction materials across the entire Southwest region of Nigeria with reliable logistics support.
           </p>
 
           <div className="coverage-list">

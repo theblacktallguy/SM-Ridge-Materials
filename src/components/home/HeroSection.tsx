@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
         <h1>Building Stronger Tomorrows with Premium Construction Materials</h1>
 
         <p>
-          Supplying Lagos & Southwest Nigeria with top-quality cement, blocks, sand,
+          Supplying Southwest Nigeria with top-quality cement, blocks, sand,
           and building materials, backed by over 10 years of industry expertise.
         </p>
         

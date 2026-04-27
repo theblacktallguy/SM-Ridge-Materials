@@ -10,7 +10,7 @@ import CompanyGallery from "@/components/company-profile/CompanyGallery";
 export const metadata = {
   title: "Company Profile | SM Ridge Materials - Construction Supply in Lagos",
   description:
-    "Explore SM Ridge Materials' company profile, including our supply capabilities, project experience, and gallery of construction material delivery across Lagos and Southwest Nigeria.",
+    "Explore SM Ridge Materials' company profile, including our supply capabilities, project experience, and gallery of construction material delivery across Southwest Nigeria.",
   keywords: [
     "SM Ridge Materials company profile",
     "construction materials company Lagos",
@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     title: "SM Ridge Materials Company Profile",
     description:
-      "Discover our supply operations, project experience, and material delivery across Lagos and Southwest Nigeria.",
+      "Discover our supply operations, project experience, and material delivery across Southwest Nigeria.",
     url: "https://smridgematerials.com/company-profile",
     siteName: "SM Ridge Materials",
     images: [
@@ -41,7 +41,7 @@ const CompanyProfile = () => {
       <PageBanner
         eyebrow="Company Profile"
         title="A trusted partner in construction materials supply"
-        text="Explore the profile of SM Ridge Materials, our operational strengths, project support capabilities, and selected visuals that reflect our commitment to reliable supply across Lagos and Southwest Nigeria."
+        text="Explore the profile of SM Ridge Materials, our operational strengths, project support capabilities, and selected visuals that reflect our commitment to reliable supply across Southwest Nigeria."
       />
 
       <CompanyIntro />

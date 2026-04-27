@@ -6,7 +6,7 @@ import MainLayout from "@/components/layout/MainLayout";
 export const metadata = {
   title: "FAQs | Construction Materials Supply in Lagos | SM Ridge Materials",
   description:
-    "Find answers to common questions about construction materials supply, pricing, delivery, and quotes in Lagos and Southwest Nigeria. Get clear information from SM Ridge Materials.",
+    "Find answers to common questions about construction materials supply, pricing, delivery, and quotes in Southwest Nigeria. Get clear information from SM Ridge Materials.",
   keywords: [
     "construction materials FAQ Lagos",
     "cement supply questions Nigeria",
@@ -17,7 +17,7 @@ export const metadata = {
   openGraph: {
     title: "SM Ridge Materials FAQs",
     description:
-      "Answers to common questions about materials, delivery, and quotes across Lagos and Southwest Nigeria.",
+      "Answers to common questions about materials, delivery, and quotes across Southwest Nigeria.",
     url: "https://smridgematerials.com/faq",
     siteName: "SM Ridge Materials",
     images: [
@@ -100,7 +100,7 @@ const FAQ = () => {
       <PageBanner
         eyebrow="Frequently Asked Questions"
         title="Answers to common questions about our materials and services"
-        text="Find helpful information about our products, supply process, delivery coverage, quote requests, and how SM Ridge Materials supports construction projects across Lagos and Southwest Nigeria."
+        text="Find helpful information about our products, supply process, delivery coverage, quote requests, and how SM Ridge Materials supports construction projects across Southwest Nigeria."
       />
 
       <section className="faq-page">

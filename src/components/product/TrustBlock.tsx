@@ -43,7 +43,7 @@ const TrustBlock: React.FC = () => {
           <h2>Why Clients Trust Us</h2>
           <p>
             Reliable construction materials supply for consistent project
-            delivery across Lagos and Southwest Nigeria.
+            delivery across Southwest Nigeria.
           </p>
         </div>
 

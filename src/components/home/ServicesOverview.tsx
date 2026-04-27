@@ -16,7 +16,7 @@ const services = [
   {
     title: "Site Delivery",
     description:
-      "Fast and secure delivery across Lagos and Southwest Nigeria.",
+      "Fast and secure delivery across Southwest Nigeria.",
   },
   {
     title: "Contractor Support",
@@ -41,7 +41,7 @@ const ServicesOverview: React.FC = () => {
       <div className="our-service-container">
         <h2 className="title">Our Services</h2>
         <p className="subtitle">
-          Reliable construction material supply and logistics across Lagos and Southwest Nigeria.
+          Reliable construction material supply and logistics across Southwest Nigeria.
         </p>
 
         <div className="grid">

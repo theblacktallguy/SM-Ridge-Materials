@@ -175,7 +175,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for a modern look */
 }
 
-.cta-btn {
+.home-about-cta-btn {
   padding: 12px 24px;
   background-color: #d4af37;
   color: #0b132b;
@@ -185,7 +185,7 @@
   transition: background-color 0.3s ease;
 }
 
-.cta-btn:hover {
+.home-about-cta-btn:hover {
   background-color: #1b1b1d;
   color: white;
 }
@@ -215,7 +215,7 @@
     font-size: 16px;
   }
 
-  .cta-btn {
+  .home-about-cta-btn {
     padding: 10px 20px;
     width: 90%;
   }

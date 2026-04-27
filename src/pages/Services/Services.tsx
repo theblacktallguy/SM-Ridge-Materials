@@ -10,7 +10,7 @@ import ServicesTrust from "@/components/services/ServicesTrust"
 export const metadata = {
   title: "Construction Material Supply Services in Lagos | SM Ridge Materials",
   description:
-    "We provide reliable construction material supply services including sourcing, bulk orders, and delivery logistics across Lagos and Southwest Nigeria for contractors and developers.",
+    "We provide reliable construction material supply services including sourcing, bulk orders, and delivery logistics across Southwest Nigeria for contractors and developers.",
   keywords: [
     "construction services Lagos",
     "building materials supply Nigeria",
@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     title: "Construction Services | SM Ridge Materials",
     description:
-      "Reliable material sourcing, bulk supply, and delivery services for construction projects in Lagos and Southwest Nigeria.",
+      "Reliable material sourcing, bulk supply, and delivery services for construction projects in Southwest Nigeria.",
     url: "https://smridgematerials.com/services",
     siteName: "SM Ridge Materials",
     images: [
@@ -41,7 +41,7 @@ const Services = () => {
       <PageBanner
         eyebrow="Our Services"
         title="Structured supply support for construction projects"
-        text="From material sourcing and bulk order coordination to delivery logistics and project support, SM Ridge Materials provides reliable service solutions for contractors, developers, and project owners across Lagos and Southwest Nigeria."
+        text="From material sourcing and bulk order coordination to delivery logistics and project support, SM Ridge Materials provides reliable service solutions for contractors, developers, and project owners across Southwest Nigeria."
       />
 
       <ServicesCore />

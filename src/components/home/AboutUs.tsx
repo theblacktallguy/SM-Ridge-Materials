@@ -26,7 +26,7 @@ const AboutUs: React.FC = () => {
                 <li>Dependable, responsive service</li>
               </ul>
             </div>
-            <Link to="/about" className="cta-btn">Learn More About Us</Link>
+            <Link to="/about" className="home-about-cta-btn">Learn More About Us</Link>
           </div>
 
           <div className="about-us-image">

@@ -73,8 +73,7 @@ const Footer = () => {
 
               <p className="site-footer__summary">
                 Reliable construction materials supply for contractors,
-                developers, businesses, and project owners across Lagos and
-                Southwest Nigeria.
+                developers, businesses, and project owners across Southwest Nigeria.
               </p>
 
               <a

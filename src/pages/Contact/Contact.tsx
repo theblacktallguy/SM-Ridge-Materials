@@ -8,7 +8,7 @@ import ContactFormSection from "@/components/contact/ContactFormSection";
 export const metadata = {
   title: "Contact SM Ridge Materials | Construction Materials Supplier in Lagos",
   description:
-    "Contact SM Ridge Materials for construction material supply, quotes, and delivery services in Lagos and Southwest Nigeria. Reach our team for fast response and reliable service.",
+    "Contact SM Ridge Materials for construction material supply, quotes, and delivery services in Southwest Nigeria. Reach our team for fast response and reliable service.",
   keywords: [
     "contact construction materials Lagos",
     "material supplier contact Nigeria",
@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: "Contact SM Ridge Materials",
     description:
-      "Get in touch for quotes, material supply, and delivery services across Lagos and Southwest Nigeria.",
+      "Get in touch for quotes, material supply, and delivery services across Southwest Nigeria.",
     url: "https://smridgematerials.com/contact",
     siteName: "SM Ridge Materials",
     images: [
@@ -39,7 +39,7 @@ const Contact = () => {
       <PageBanner
         eyebrow="Contact Us"
         title="Let’s discuss your material supply needs"
-        text="Get in touch with SM Ridge Materials for product enquiries, quote requests, delivery coordination, and general support across Lagos and Southwest Nigeria."
+        text="Get in touch with SM Ridge Materials for product enquiries, quote requests, delivery coordination, and general support across Southwest Nigeria."
       />
 
       <ContactOptionsSection />

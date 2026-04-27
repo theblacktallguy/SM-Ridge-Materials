@@ -9,7 +9,7 @@ import TrustBlock from "@/components/product/TrustBlock";
 export const metadata = {
   title: "Construction Materials Supplier in Lagos | Cement, Steel, Sand & Blocks",
   description:
-    "Browse high-quality construction materials including cement, steel, sand, blocks, roofing, and plumbing supplies. SM Ridge Materials delivers across Lagos and Southwest Nigeria.",
+    "Browse high-quality construction materials including cement, steel, sand, blocks, roofing, and plumbing supplies. SM Ridge Materials delivers across Southwest Nigeria.",
   keywords: [
     "construction materials Lagos",
     "cement supplier Nigeria",
@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     title: "Construction Materials | SM Ridge Materials",
     description:
-      "Reliable supply of cement, steel, sand, blocks, and other construction materials across Lagos and Southwest Nigeria.",
+      "Reliable supply of cement, steel, sand, blocks, and other construction materials across Southwest Nigeria.",
     url: "https://smridgematerials.com/products",
     siteName: "SM Ridge Materials",
     images: [
@@ -41,7 +41,7 @@ const Products = () => {
       <PageBanner 
         eyebrow="Our Products" 
         title="High-Quality Construction Materials" 
-        text="Explore our wide range of premium construction materials, including cement, steel, sand, blocks, and more. We provide reliable and timely delivery to contractors and developers across Lagos and Southwest Nigeria."
+        text="Explore our wide range of premium construction materials, including cement, steel, sand, blocks, and more. We provide reliable and timely delivery to contractors and developers across Southwest Nigeria."
       />
 
       <ProductsPage />

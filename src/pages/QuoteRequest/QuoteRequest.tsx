@@ -10,7 +10,7 @@ import SupplyCapability from "@/components/quote/SupplyCapability";
 export const metadata = {
   title: "Request Construction Material Quote | SM Ridge Materials Lagos",
   description:
-    "Get a fast, customized quote for construction materials including cement, steel, sand, and blocks in Lagos and Southwest Nigeria. Reliable pricing and quick response.",
+    "Get a fast, customized quote for construction materials including cement, steel, sand, and blocks in Southwest Nigeria. Reliable pricing and quick response.",
   keywords: [
     "construction quote Lagos",
     "cement price quote Nigeria",
@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     title: "Request a Construction Quote | SM Ridge Materials",
     description:
-      "Get a fast and reliable quote for construction materials across Lagos and Southwest Nigeria.",
+      "Get a fast and reliable quote for construction materials across Southwest Nigeria.",
     url: "https://smridgematerials.com/quote-request",
     siteName: "SM Ridge Materials",
     images: [

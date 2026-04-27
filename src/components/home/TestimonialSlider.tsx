@@ -56,7 +56,7 @@ const TestimonialSlider: React.FC = () => {
       <div className="container">
         <h2>What Our Clients Say</h2>
         <p className="subtitle">
-          Trusted by contractors and builders across Lagos and Southwest Nigeria.
+          Trusted by contractors and builders across Southwest Nigeria.
         </p>
 
         <Swiper

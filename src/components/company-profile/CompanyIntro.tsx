@@ -16,7 +16,7 @@ const CompanyIntro = () => {
 
             <p>
                 SM Ridge Materials is a trusted construction material supplier
-                delivering high-quality resources across Lagos and Southwest Nigeria.
+                delivering high-quality resources across Southwest Nigeria.
                 From large-scale developments to private builds, we ensure timely,
                 consistent, and dependable supply.
             </p>

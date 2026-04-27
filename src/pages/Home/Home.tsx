@@ -12,7 +12,7 @@ import TestimonialSlider from "@/components/home/TestimonialSlider";
 export const metadata = {
   title: "SM Ridge Materials | Construction Materials Supplier in Lagos",
   description:
-    "SM Ridge Materials supplies cement, granite, sand, blocks, steel, and building materials across Lagos and Southwest Nigeria. Reliable delivery, competitive pricing, and fast response.",
+    "SM Ridge Materials supplies cement, granite, sand, blocks, steel, and building materials across Southwest Nigeria. Reliable delivery, competitive pricing, and fast response.",
   keywords: [
     "construction materials Lagos",
     "cement supplier Lagos",
@@ -24,7 +24,7 @@ export const metadata = {
   openGraph: {
     title: "SM Ridge Materials",
     description:
-      "Reliable construction materials supply across Lagos and Southwest Nigeria. Fast delivery and trusted service.",
+      "Reliable construction materials supply across Southwest Nigeria. Fast delivery and trusted service.",
     url: "https://smridgematerials.com",
     siteName: "SM Ridge Materials",
     images: [
@@ -43,7 +43,7 @@ const Home = () => {
     <MainLayout>      
       <PageBanner
         eyebrow="SM Ridge Materials"
-        title="Reliable Construction Materials Supply in Lagos and Southwest Nigeria"
+        title="Reliable Construction Materials Supply in Nigeria"
         text="We supply quality building materials for contractors, developers, businesses, and individual project owners with dependable service and responsive support."
       />
 
