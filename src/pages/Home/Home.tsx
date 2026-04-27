@@ -40,14 +40,15 @@ export const metadata = {
 
 const Home = () => {
   return (
-    <MainLayout>
-      <HeroSection />  {/* Add Hero Section here */}
-      
+    <MainLayout>      
       <PageBanner
         eyebrow="SM Ridge Materials"
         title="Reliable Construction Materials Supply in Lagos and Southwest Nigeria"
         text="We supply quality building materials for contractors, developers, businesses, and individual project owners with dependable service and responsive support."
       />
+
+      <HeroSection /> 
+
 
       <AboutUs />
 
