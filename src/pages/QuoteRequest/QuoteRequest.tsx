@@ -22,7 +22,7 @@ export const metadata = {
     title: "Request a Construction Quote | SM Ridge Materials",
     description:
       "Get a fast and reliable quote for construction materials across Lagos and Southwest Nigeria.",
-    url: "https://smridgematerials.com/quote",
+    url: "https://smridgematerials.com/quote-request",
     siteName: "SM Ridge Materials",
     images: [
       {

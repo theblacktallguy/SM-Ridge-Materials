@@ -21,7 +21,7 @@ const AboutHero: React.FC = () => {
         </p>
 
         <div className="about-hero__cta">
-          <a href="/quote" className="btn-primary">Request a Quote</a>
+          <a href="/quote-request" className="btn-primary">Request a Quote</a>
           <a href="/contact" className="btn-secondary">Contact Us</a>
         </div>
       </div>
