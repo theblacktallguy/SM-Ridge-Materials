@@ -327,7 +327,7 @@
 
 .about-supply-card {
   background-color: #fff;
-  padding: 30px;
+  padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   text-align: left;
@@ -354,6 +354,10 @@
     margin: 0 auto;
     padding: 0 5px;
     gap: 20px;
+  }
+
+  .about-supply-grid h3{
+    font-size: 18px;
   }
 
   .what-we-supply {
