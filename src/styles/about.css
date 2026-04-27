@@ -348,7 +348,7 @@
 }
 
 @media (max-width: 768px) {
-  .supply-grid {
+  .about-supply-grid {
     grid-template-columns: 1fr 1fr; /* Stack 2 columns on mobile */
     width: 100%;
     margin: 0 auto;
