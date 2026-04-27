@@ -9,9 +9,7 @@
     "esModuleInterop": true,
     "noEmit": true,
     "strict": true,
-
-    "baseUrl": ".",   
-
+    "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     }
