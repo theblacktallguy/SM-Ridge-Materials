@@ -574,28 +574,31 @@
 
 /* TRUST TEXT */
 .trust-item {
-  position: relative;
   text-align: center;
   font-size: 1.3rem;
   font-weight: 500;
+  position: relative;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .trust-text {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%) translateY(10px);
   opacity: 0;
-  transition: all 0.7s ease;
+  transform: translateY(10px);
+  transition: all 0.5s ease;
   white-space: nowrap;
-  color: rgb(255, 255, 255);
+  color: #fff;
   background: #372d0d;
   padding: 6px 14px;
   border-radius: 8px;
+  position: relative;
 }
 
 .trust-text.active {
   opacity: 1;
-  transform: translateX(-50%) translateY(0);
+  transform: translateY(0);
 }
 
 /* ========================= */

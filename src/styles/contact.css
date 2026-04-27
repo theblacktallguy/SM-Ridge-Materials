@@ -243,8 +243,11 @@
 /* FORM */
 .form-panel {
   background: white;
-  padding: 30px;
   border-radius: 16px;
+}
+
+.contact-form-nav{
+  margin: 0 auto;
 }
 
 .step {

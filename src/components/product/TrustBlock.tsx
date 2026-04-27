@@ -50,14 +50,9 @@ const TrustBlock: React.FC = () => {
         {/* ANIMATED CENTER */}
         <div className="trust-block__carousel">
           <div className="trust-item">
-            {points.map((item, i) => (
-              <span
-                key={i}
-                className={`trust-text ${i === index ? "active" : ""}`}
-              >
-                {item}
-              </span>
-            ))}
+            <span className="trust-text active">
+              {points[index]}
+            </span>
           </div>
         </div>
 
