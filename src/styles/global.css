@@ -60,3 +60,23 @@ img {
 ul {
   list-style: none;
 }
+
+/* ===== LAYOUT FIX (PREVENT SCROLL OVERFLOW) ===== */
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Fix mobile viewport issues */
+body {
+  min-height: 100dvh;
+}
+
+/* Prevent scroll bouncing past content */
+html,
+body {
+  overflow-x: hidden;
+  overscroll-behavior: none;
+}
