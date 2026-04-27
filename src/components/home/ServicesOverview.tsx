@@ -38,7 +38,7 @@ const services = [
 const ServicesOverview: React.FC = () => {
   return (
     <section className="services-section">
-      <div className="container">
+      <div className="our-service-container">
         <h2 className="title">Our Services</h2>
         <p className="subtitle">
           Reliable construction material supply and logistics across Lagos and Southwest Nigeria.

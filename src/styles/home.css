@@ -362,7 +362,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Two columns by default */
   gap: 20px;
-  padding: 0 20px;
 }
 
 /* Reason Card Styling */
@@ -417,6 +416,10 @@
 
   .reason-card {
     padding: 20px;
+  }
+
+  .reason-card h3 {
+    font-size: 1rem;
   }
 
   .cta-btn {
@@ -552,10 +555,11 @@
   color: white;
 }
 
-.services-section .container {
+.our-service-container {
   max-width: 1300px;
   margin: auto;
   text-align: center;
+  color: #0B132B;
 }
 
 .title {

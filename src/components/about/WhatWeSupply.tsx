@@ -26,7 +26,7 @@ const WhatWeSupply: React.FC = () => {
 
         <div className="about-supply-grid">
           {supplies.map((supply) => (
-            <div key={supply.label} className="supply-card">
+            <div key={supply.label} className="about-supply-card">
               <h3>{supply.label}</h3>
               <p>{supply.description}</p>
             </div>

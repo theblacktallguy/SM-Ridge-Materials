@@ -56,18 +56,9 @@ const Home = () => {
 
       <WhyChooseUs />
 
-      <section className="page-placeholder">
-        <div className="container">
-          
-          <div className="page-placeholder__card">
-            
-            <ServicesOverview />
+      <ServicesOverview />
 
-            <CoverageAreas />
-
-          </div>
-        </div>
-      </section>
+      <CoverageAreas />
 
       <TestimonialSlider />
     </MainLayout>
