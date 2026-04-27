@@ -498,11 +498,15 @@
   justify-content: center;
   z-index: 99999;
   padding: 20px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .confirm-modal {
   width: 100%;
   max-width: 780px;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
   background: #0B132B;
   border-radius: 18px;
   padding: 24px;
@@ -647,8 +651,15 @@
 
 /* MOBILE */
 @media (max-width: 768px) {
+
+  .confirm-overlay {
+    align-items: flex-start;
+    padding: 14px;
+  }
   .confirm-modal {
-    padding: 20px;
+    max-height: calc(100dvh - 28px);
+    padding: 18px;
+    border-radius: 16px;
   }
 
   .confirm-body {
