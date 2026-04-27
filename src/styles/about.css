@@ -285,6 +285,14 @@
 @media (max-width: 768px) {
   .core-values__grid {
     grid-template-columns: 1fr 1fr; /* Stack 2 columns on mobile */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5px;
+    gap: 20px;
+  }
+
+  .core-values {
+    padding: 30px 0;
   }
 
   .core-value-card {
@@ -342,6 +350,14 @@
 @media (max-width: 768px) {
   .supply-grid {
     grid-template-columns: 1fr 1fr; /* Stack 2 columns on mobile */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5px;
+    gap: 20px;
+  }
+
+  .what-we-supply {
+    padding: 30px 0;
   }
 
   .supply-card {
