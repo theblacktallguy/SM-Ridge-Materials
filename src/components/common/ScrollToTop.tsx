@@ -1,31 +1,31 @@
-import { useLayoutEffect } from "react";
+import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 const ScrollToTop = () => {
   const { pathname, hash } = useLocation();
 
-  useLayoutEffect(() => {
-    const id = hash?.replace("#", "");
+  useEffect(() => {
+    // ALWAYS reset scroll immediately on route change
+    window.scrollTo(0, 0);
 
-    const runScroll = () => {
-      if (id) {
-        const element = document.getElementById(id);
+    if (!hash) return;
 
-        if (element) {
-          element.scrollIntoView({
-            behavior: "smooth",
-            block: "start",
-          });
-          return;
-        }
+    const id = hash.replace("#", "");
+
+    const tryScroll = () => {
+      const el = document.getElementById(id);
+
+      if (el) {
+        el.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
       }
-
-      window.scrollTo({ top: 0, left: 0, behavior: "auto" });
     };
 
-    // wait 2 animation frames (ENSURES DOM is fully painted)
+    // wait for DOM paint
     requestAnimationFrame(() => {
-      requestAnimationFrame(runScroll);
+      requestAnimationFrame(tryScroll);
     });
 
   }, [pathname, hash]);
