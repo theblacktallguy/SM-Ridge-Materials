@@ -1,0 +1,329 @@
+/* ContactOptionsSection*/
+.contact-options {
+  padding: 80px 0 10px 0;
+  background: #f7f7f7;
+}
+
+/* HEADER */
+.contact-options-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-options-header h2 {
+  font-size: 2rem;
+  color: #0B132B;
+  margin-bottom: 10px;
+}
+
+.contact-options-header p {
+  color: rgba(11,19,43,0.7);
+}
+
+/* GRID */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+/* CARD */
+.contact-card {
+  background: white;
+  border-radius: 14px;
+  padding: 22px;
+  text-decoration: none;
+  color: #0B132B;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  transition: 0.3s ease;
+  position: relative;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+/* HOVER LIFT */
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+}
+
+/* ICON */
+.contact-card .icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(11,19,43,0.06);
+  color: #0B132B;
+}
+
+/* TITLE */
+.contact-card h3 {
+  margin: 0;
+}
+
+/* SUB TEXT */
+.contact-card p {
+  font-size: 0.9rem;
+  color: rgba(11,19,43,0.65);
+}
+
+/* BADGE */
+.contact-card span {
+  font-size: 0.75rem;
+  opacity: 0.6;
+}
+
+/* HIGHLIGHT CARD */
+.contact-card.highlight {
+  border: 1px solid #D4AF37;
+  background: linear-gradient(180deg, #fff, #fff8e6);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Contact Map Section */
+.map-section {
+  padding: 80px 0;
+  background: #0B132B;
+  color: white;
+}
+
+/* GRID */
+.map-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 20px;
+  align-items: stretch;
+}
+
+/* MAP */
+.map-box {
+  height: 420px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* RIGHT SIDE */
+.map-info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* CARDS */
+.info-card {
+  background: rgba(255,255,255,0.05);
+  padding: 16px;
+  border-radius: 12px;
+  border-left: 3px solid #D4AF37;
+}
+
+.info-card h3 {
+  margin-bottom: 6px;
+  color: #D4AF37;
+  font-size: 1rem;
+}
+
+.info-card p {
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+/* BUTTON */
+.map-btn {
+  margin-top: 10px;
+  padding: 12px;
+  background: #D4AF37;
+  color: #0B132B;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.map-btn:hover {
+  transform: translateY(-3px);
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .map-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .map-box {
+    height: 300px;
+  }
+}
+
+/* ContactFormSection Section */
+.contact-intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-intro h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  color: #0B132B;
+}
+
+.contact-intro p {
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.contact-hints {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  font-size: 0.9rem;
+}
+
+.elite-contact {
+  padding: 80px 0;
+  background: #f7f7f7;
+}
+
+/* PROGRESS */
+.progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+}
+
+.dot.active {
+  background: #0B132B;
+}
+
+.progress span {
+  margin-left: 10px;
+  font-size: 0.85rem;
+}
+
+/* GRID */
+.elite-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 30px;
+}
+
+/* FORM */
+.form-panel {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.step button{
+  padding: 12px;
+  background: #0B132B;
+  color: #f7f7f7;
+  border-radius: 8px;
+}
+
+.step button:hover {
+  background: #D4AF37;
+  color: #0B132B;
+}
+
+.step input,
+.step textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.nav button {
+  padding: 12px;
+  background: #0B132B;
+  color: #f7f7f7;
+  border-radius: 8px;
+}
+
+.nav button:hover {
+  background: #D4AF37;
+  color: #0B132B;
+}
+
+/* PREVIEW */
+.preview {
+  background: #0B132B;
+  color: white;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.preview-box p {
+  margin-bottom: 8px;
+}
+
+.preview span {
+  opacity: 0.6;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .elite-grid {
+    grid-template-columns: 1fr;
+  }
+  .step{
+    width: 100%;
+  }
+
+  .step input,
+  .step textarea {
+    width: 100%;
+  }
+
+  .nav {
+    width: 100%;
+  }
+}

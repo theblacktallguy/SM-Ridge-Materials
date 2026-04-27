@@ -1,0 +1,36 @@
+.policy-page {
+  padding: 90px 5%;
+  background: #f7f7f7;
+}
+
+.policy-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.policy-block {
+  margin-bottom: 40px;
+}
+
+.policy-block h2 {
+  font-size: 1.3rem;
+  color: #0B132B;
+  margin-bottom: 10px;
+}
+
+.policy-block p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.policy-block ul {
+  padding-left: 18px;
+  margin-top: 8px;
+}
+
+.policy-block li {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  opacity: 0.8;
+}

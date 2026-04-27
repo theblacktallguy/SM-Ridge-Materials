@@ -1,0 +1,16 @@
+.floating-action {
+  position: fixed;
+  right: 20px;
+  z-index: 1200;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  border-radius: var(--radius-pill);
+  font-weight: 700;
+}
+
+.floating-action--whatsapp {
+  bottom: 24px;
+}
+
